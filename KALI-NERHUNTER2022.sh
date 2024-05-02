@@ -413,7 +413,7 @@ function print_banner() {
     \n"
    
     printf "${read} PILIH ANGKA 1 JIKA SUDAH SELESAI KALO MUNCUL Y/N JAWAB N \n"
-    printf "${blue}               NetHunter 2024 ${reset}\n\n"
+    printf "${blue}               NetHunter 2022${reset}\n\n"
 }
 
 
@@ -449,7 +449,7 @@ extract_rootfs
 create_launcher
 cleanup
 
-printf "\n${blue}[*] Configuring NetHunter for Termux ...\n"
+printf "\n${blue}[*] Mengonfigurasi NetHunter untuk  ...\n"
 fix_profile_bash
 fix_resolv_conf
 fix_sudo
@@ -459,4 +459,4 @@ fix_uid
 print_banner
 printf "${green} JIKA SUDAH KE INSTALL KALI NETHUNTER GUSY JAWAB DI BAWAH${reset}\n\n"
 printf "${green} nh untuk jalankan kali nethunter port 1 ${reset}\n"
-printf "${green} nh -r         port 2       # Shortcut for nethunter${reset}\n\n"
+printf "${green} nh -r         port 2       # Pintasan untuk nethunter${reset}\n\n"
